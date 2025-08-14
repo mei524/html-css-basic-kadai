@@ -102,13 +102,13 @@ main{
   margin: 20px 0px;
   text-align: center;
 }
-#h2{
+h2{
   font-size: 25px;
   border-bottom: dotted 3px rgb(236, 122,122);
 }
 h2::before{
   content: "●";
-  clear: rgb(239,111,139);
+  color: rgb(239,111,139);
 }
 .contents p:nth-of-type(2)::first-letter{
   font-weight: bold;
@@ -129,10 +129,10 @@ footer a:visited{
   color: rgb(193, 234, 251);
 }
 footer a:hover{
-  clear: rgb(245, 178, 168);
+  color: rgb(245, 178, 168);
 }
 @media screen and (max-width:768px) {
-     h2{
+    h2{
       font-size: 30px;
     }
     p{
